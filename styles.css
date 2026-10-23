@@ -83,3 +83,33 @@ img {
     }
 }
 
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+section h2 {
+    color: steelblue;
+    font-size: 23px;
+}
+
+section p {
+    margin: 15px 0;
+}
+
+section ul {
+    padding-left: 30px;
+}
+
+section li {
+    margin-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+    section {
+        padding: 10px;
+        margin: 10px auto;
+    }
+}
